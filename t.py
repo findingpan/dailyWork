@@ -25,4 +25,4 @@ for x in rs:
 	try:
 		print x.find(class_="caption").get_text(strip=True),':',x.find(class_="value").get_text(strip=True)
 	except Exception, e:
-		pass
+		print e
